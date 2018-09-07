@@ -1,0 +1,7 @@
+﻿  PlayerStructMaker.cpp
+c:\users\liam\source\repos\playerstructmaker\playerstructmaker\playerstructmaker.cpp(62): warning C4018: '<': signed/unsigned mismatch
+c:\users\liam\source\repos\playerstructmaker\playerstructmaker\playerstructmaker.cpp(142): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  All 286 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  PlayerStructMaker.vcxproj -> C:\Users\Liam\source\repos\PlayerStructMaker\Release\PlayerStructMaker.exe
