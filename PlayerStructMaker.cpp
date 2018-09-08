@@ -112,6 +112,10 @@ void WriteFile(const char* filepath) {
 			savedInt = OffClass[i].add + 4;
 			savedNextFrame = "int";
 		}
+		if (strncmp(OffClass[i].name, "m_fFlags", 8) == 0) {
+			savedInt = OffClass[i].add + 4;
+			savedNextFrame = "int";
+		}
 
 		fprintf(file, NextFrameName.c_str());
 		fprintf(file, " %s;\n", savedNAME);
