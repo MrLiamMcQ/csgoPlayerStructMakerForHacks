@@ -80,11 +80,11 @@ void WriteFile(const char* filepath) {
 			savedInt = OffClass[i].add + 1;
 			savedNextFrame = "unsigned char";
 		}
-		if (strncmp(OffClass[i].name, "m_dw", 3) == 0) {
+		if (strncmp(OffClass[i].name, "m_dw", 4) == 0) {
 			savedInt = OffClass[i].add + 4;
 			savedNextFrame = "unsigned long";
 		}
-		if (strncmp(OffClass[i].name, "m_MoveType", 4) == 0) {
+		if (strncmp(OffClass[i].name, "m_MoveType", 10) == 0) {
 			savedInt = OffClass[i].add + 1;
 			savedNextFrame = "unsigned char";
 		}
@@ -92,11 +92,11 @@ void WriteFile(const char* filepath) {
 			savedInt = OffClass[i].add + 4;
 			savedNextFrame = "int";
 		}
-		if (strncmp(OffClass[i].name, "m_lifeState", 4) == 0) {
+		if (strncmp(OffClass[i].name, "m_lifeState", 11) == 0) {
 			savedInt = OffClass[i].add + 1;
 			savedNextFrame = "unsigned char";
 		}
-		if (strncmp(OffClass[i].name, "m_iItem", 4) == 0) {
+		if (strncmp(OffClass[i].name, "m_iItem", 7) == 0) {
 			savedInt = OffClass[i].add + 1;
 			savedNextFrame = "unsigned char";
 		}
